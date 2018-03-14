@@ -3,8 +3,8 @@
     /* styles for small viewport */
 }
 
-.hello {
-    border-radius: 5px;
+.primary {
+    color: $colors.primary;
 }
 
 @keyframes MyAnimation {
