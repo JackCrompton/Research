@@ -1,9 +1,20 @@
+@media (--small-viewport) {
+    font-size: 12px;
+    /* styles for small viewport */
+}
+
 .hello {
     border-radius: 5px;
 }
 
 @keyframes MyAnimation {
-    0% { left: 0; }	
-   50% { left: 200px; }	
-  100% { left: 20px; }	
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 20px;
+    }
 }
