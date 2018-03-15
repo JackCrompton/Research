@@ -1,0 +1,11 @@
+@import 'colors';
+@import 'media-querries';
+
+// usage
+.mediaQueryExample {
+  color: $default-color;
+
+  @include for-phone-only {
+    color: $tertiary-color;
+  }
+}
