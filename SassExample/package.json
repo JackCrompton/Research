@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "sass_options": "--output-style compressed --source-map true",
+    "sass_input": "index.scss",
+    "sass_output": "dist.css"
+  },
   "scripts": {
-    "build-css": "node-sass -w --output-style compressed index.scss dist.css",
+    "build-css": "node-sass %npm_package_config_sass_options% %npm_package_config_sass_input% %npm_package_config_sass_output%",
+    "build-css:watch": "node-sass %npm_package_config_sass_options% --watch %npm_package_config_sass_input% %npm_package_config_sass_output%",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
