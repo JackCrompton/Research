@@ -3,9 +3,21 @@
 
 // usage
 .mediaQueryExample {
-  color: $default-color;
+  color: red;
 
   @include for-phone-only {
     color: $tertiary-color;
+  }
+  @include for-tablet-portrait-only {
+    color: $secondary-color;
+  }
+  @include for-tablet-landscape-only {
+    color: $primary-color;
+  }
+  @include for-desktop-only {
+    color: $default-color;
+  }
+  @include for-big-desktop-up {
+    color: blue;
   }
 }
