@@ -1,3 +1,4 @@
+/* maybe use https://github.com/postcss/postcss-custom-properties instead*/
 module.exports = {
     globals: {
         colors: {

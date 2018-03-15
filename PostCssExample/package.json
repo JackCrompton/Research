@@ -13,6 +13,6 @@
     "autoprefixer": "^8.1.0",
     "postcss-cli": "^5.0.0",
     "postcss-custom-media": "^6.0.0",
-    "postcss-variables": "^1.1.1"
+    "postcss-variables": "^1.1.1" 
   }
 }
